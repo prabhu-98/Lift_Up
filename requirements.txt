@@ -3,5 +3,5 @@ google-generativeai==0.8.2
 streamlit==1.38.0
 pillow==10.4.0
 tf-keras
-#opencv-python-headless
+opencv-python-headless
 

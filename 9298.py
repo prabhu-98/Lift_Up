@@ -118,7 +118,7 @@ if img_file:
     emotion = attributes['dominant_emotion']
 
     # Now you can use these attributes for further processing
-    st.write(f"Age: {age}, Gender: {gender}, Emotion: {emotion}")
+    st.write(f"Age: {age-5}, Gender: {gender}, Emotion: {emotion}")
 
     # Generate motivational quotes based on the attributes
     quotes = generate_quotes(age, gender, emotion)

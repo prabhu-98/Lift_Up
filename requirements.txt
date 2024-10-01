@@ -2,6 +2,5 @@ deepface==0.0.93
 google-generativeai==0.8.2
 streamlit==1.38.0
 pillow==10.4.0
-pip uninstall opencv-python
 opencv-python-headless
 tf-keras

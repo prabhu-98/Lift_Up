@@ -88,7 +88,7 @@ def generate_quotes(age, gender, emotion):
 
     # Send message and receive quotes
     response = chat_session.send_message(
-        f"Provide 4 thoughtful, motivational, or relevant quotes for a person based on the following characteristics:Age:{age}Gender:{gender}Emotion: {emotion}The quotes should resonate with the person's current emotional state and be appropriate for their age and gender. Please ensure that the quotes reflect empathy, encouragement, and positivity.Only Quotes no need of explanation"
+        f"Provide 4 thoughtful, motivational, or relevant quotes for a person based on the following characteristics:Age:{age-5}Gender:{gender}Emotion: {emotion}The quotes should resonate with the person's current emotional state and be appropriate for their age and gender. Please ensure that the quotes reflect empathy, encouragement, and positivity.Only Quotes no need of explanation"
     )
 
     return response.text

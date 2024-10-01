@@ -4,7 +4,7 @@ from deepface import DeepFace
 import google.generativeai as genai
 
 # Configure the Google Generative AI API
-genai.configure(api_key="AIzaSyDR3z9bQuZBbRkY6wJLBgdW3nx2T5VekQs")
+genai.configure(api_key=st.secrets["API_KEY"])
 generation_config = {
   "temperature": 1.5,
   "top_p": 0.95,
